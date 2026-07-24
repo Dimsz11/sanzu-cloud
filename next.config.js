@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Baileys needs these for server-side usage
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
@@ -14,9 +13,7 @@ const nextConfig = {
     }
     return config;
   },
-  experimental: {
-    serverComponentsExternalPackages: ['@whiskeysockets/baileys', 'pino'],
-  },
+  serverExternalPackages: ['@whiskeysockets/baileys', 'pino'],
 };
 
 module.exports = nextConfig;
