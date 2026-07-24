@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { botManager } from '../../../../lib/botManager';
+import { botManager } from '../../../lib/botManager';
 
 // Active Baileys sockets per bot
 const activeSockets = new Map<string, any>();
