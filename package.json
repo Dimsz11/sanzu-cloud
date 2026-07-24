@@ -9,23 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "15.3.3",
+    "react": "^19",
+    "react-dom": "^19",
     "@whiskeysockets/baileys": "^6.7.0",
-    "qrcode": "^1.5.3",
     "pino": "^9.0.0",
-    "pino-pretty": "^11.0.0",
-    "uuid": "^9.0.0"
+    "uuid": "^11.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@types/qrcode": "^1.5.5",
-    "@types/uuid": "^9.0.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "typescript": "^5",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3"
   }
 }
